@@ -8,6 +8,7 @@
 const n =parseInt(process.argv[2]);
 function isPrime(num) {
     if (num <= 1) return false;
+    
     for (let i = 2; i <num; i++) {
         if (num % i === 0) {
             return false;
@@ -15,10 +16,10 @@ function isPrime(num) {
     }
     return true;
 }
-if (isprime(n)) {
+if (isPrime(n)) {
     console.log("Prime Number");
 } else {
-    console.log("not Prime Number");
+    console.log("Not Prime Number");
 }
 
 module.exports = isPrime;
