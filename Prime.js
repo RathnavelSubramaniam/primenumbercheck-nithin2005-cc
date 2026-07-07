@@ -5,9 +5,9 @@
  * @returns {boolean} True if the number is prime, false otherwise.
  */
 function isPrime(n) {
-    if(num <=1) return false;
-    for (let i =2; i <num;i++){
-        if (num  % i ===0){
+    if (num <= 1) return false;
+    for (let i = 2; i <num;i++) {
+        if (num % i === 0){
             return false;
         }
     }
@@ -15,7 +15,7 @@ function isPrime(n) {
 }
 if (isprime(n)){
     console.log("prime number");
-} else{
+} else {
     console.log("not prime number");
 }
 
