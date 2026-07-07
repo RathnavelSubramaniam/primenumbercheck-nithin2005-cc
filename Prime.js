@@ -13,7 +13,7 @@ function isPrime(n) {
     }
     return true;
 }
-if (isprime(n)){
+if (isprime(n)) {
     console.log("prime number");
 } else {
     console.log("not prime number");
